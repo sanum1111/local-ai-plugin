@@ -1,0 +1,14 @@
+<idea-plugin>
+    <id>com.localai.bridge.plugin</id>
+    <name>Local AI Assistant Bridge</name>
+    <vendor>Developer</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Local AI Bridge"
+                    anchor="right"
+                    factoryClass="com.localai.plugin.LocalAiToolWindowFactory"
+                    icon="AllIcons.Actions.Lightning"/>
+    </extensions>
+</idea-plugin>
